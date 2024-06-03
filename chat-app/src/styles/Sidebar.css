@@ -1,0 +1,19 @@
+.sidebar {
+    width: 350px;
+    height: 98vh;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    background-color: #303030;
+}
+
+.sidebar-div {
+    /* font-size: 24px; */
+    display: block;
+}
+
+.sidebar-header {
+    margin: 0;
+    padding: 18px;
+    font-size: 20px !important;
+}
