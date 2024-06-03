@@ -3,7 +3,9 @@ import '../styles/Chat.css';
 const Chat = () => {
     return (
         <>
-            <input className='chat-input'></input>
+            <div>
+                <input className='chat-input'></input>
+            </div>
         </>
     )
 }
