@@ -6,9 +6,8 @@ const ChatSection = () => {
     return (
         <>
             <div className='chat-section'>
-                <div className='user-message-div'>
-                    <UserMessage />
-                </div>
+                <UserMessage />
+                <UserMessage />
             </div>
             <div className='chat-div'>
                 <Chat />

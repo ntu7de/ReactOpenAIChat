@@ -1,0 +1,19 @@
+.user-message-div {
+    background-color: #303030;
+    max-width: 600px;
+    /* position: fixed; */
+    /* right: 20px; */
+    /* bottom: 150px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: left;
+    /* z-index: 10; */
+    height: 14;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+}
