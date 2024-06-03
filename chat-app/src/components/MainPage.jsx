@@ -1,8 +1,7 @@
 import '../styles/MainPage.css'
 import Header from './Header';
 import Sidebar from './Sidebar';
-import Chat from './Chat';
-import UserMessage from './UserMessage';
+import ChatSection from './ChatSection';
 
 const MainPage = () => {
     return (
@@ -12,12 +11,7 @@ const MainPage = () => {
             </div>
             <div>
                 <Header />
-                <div className='user-message-div'>
-                    <UserMessage />
-                </div>
-                <div className='chat-div'>
-                    <Chat />
-                </div>
+                <ChatSection />
             </div>
         </div> 
     )
